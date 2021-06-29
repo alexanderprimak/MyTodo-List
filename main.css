@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+   background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613567336_57-p-fon-dlya-prezentatsii-po-fizike-65.jpg) no-repeat center top /cover ;
+  
+}
+
+.flex_container {
+   color:white;
+   width: 30%;
+   margin: 0px auto;   
+   transform: translateY(10%);
+  
+}
+
+h1 {
+    text-align: center;
+}
+
+.input_btnAdd {
+    background-color:gray;
+    text-align: center;
+    height:60px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input {
+    margin-right: 20px;
+    width: 250px;
+    height: 40px;
+    
+}
+
+.btnAddTask {
+    background-color:lime;
+    width: 80px;
+    height: 30px;
+    color: white;
+}
+
+
+.allTasks {
+    text-align: center;
+    margin-top:40px;
+}
+
+
+.todo-item {
+    justify-content: space-between;
+    display: flex;
+    background-color:gray;
+    border-radius:10px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.buttons {
+    display: flex;
+    align-items:center;
+}
+
+
+.chek {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    background-color:blue;
+}
+
+
+.description-task {
+    color:white;
+    font-size: 20px;
+}
+
+
+
+.todo-item.checked .description-task {
+    
+    text-decoration:line-through;
+   
+
+}
+
+
+.btn_task-delite {
+    background-color:red;
+    height: 30px;
+    width: 60px;
+    color:white;
+    text-decoration: none;
+}
+
+
+.container_for_newTask {
+    border: 2px solid gray;
+    padding: 40px;
+    border-radius:10px;
+    height: 500px;
+    white-space: auto;
+    overflow:auto;
+}
+
+
+.description-task {
+    color:white;
+}
